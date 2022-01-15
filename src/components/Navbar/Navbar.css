@@ -1,10 +1,11 @@
 .Navbar{
     width: 100%;
     height: 90px;
-    background-color: #141414;
+    background-color: #141414fa;
     position: fixed;
     z-index: 2;
     top: 0;
+    overflow: hidden;
 }
 
 .wrapper{
@@ -22,4 +23,61 @@
     font-weight: 400;
     text-decoration: none;
     color: inherit;
+}
+
+.left{
+    display: flex;
+    align-items:center;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}
+
+.itemContainer{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+.itemContainerEmail{
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+}
+.icon{
+    margin-right: 5px;
+}
+
+.iconText{
+    font-size: 18px;
+    font-weight: 400;
+}
+.iconTextEmail{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.punctuation{
+    color:tomato;
+}
+
+@media (max-width:800px){
+    .itemContainerEmail{
+        display: none;
+    }
+    @media (max-width:450px){
+        .iconText{
+            display: none;
+        }
+
+        .icon{
+            margin-right:20px
+        }
+    }
 }
