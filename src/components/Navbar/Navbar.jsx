@@ -27,6 +27,11 @@ export default function Navbar() {
                                 <span className='iconText'>Projects</span>
                         </div>
                     </a>
+                    <a href="#blog">
+                        <div className='itemContainer'>
+                                <span className='iconText'>Blog</span>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
