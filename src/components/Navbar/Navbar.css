@@ -38,7 +38,7 @@
 .itemContainer{
     display: flex;
     align-items: center;
-    margin-left: 40px;
+    margin-left: 25px;
 }
 .itemContainerEmail{
     display: flex;
@@ -67,17 +67,8 @@ a{
     color:tomato;
 }
 
-@media (max-width:800px){
+@media (max-width:885px){
     .itemContainerEmail{
         display: none;
-    }
-    @media (max-width:450px){
-        .iconText{
-            display: none;
-        }
-
-        .icon{
-            margin-right:20px
-        }
     }
 }
