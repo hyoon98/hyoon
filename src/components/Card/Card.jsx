@@ -6,7 +6,7 @@ export default function Card({cover, title, desc, link}) {
     let navigate=useNavigate();
   return (
     <div className='Card' onClick={()=>{
-        navigate(link)
+        navigate('/blog/'+link)
     }}>
         <img className='cover' src={cover}/>
         <h2 className='card-title'>{title}</h2>

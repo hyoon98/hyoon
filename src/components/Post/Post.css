@@ -1,0 +1,8 @@
+.Post{
+    min-height: 100vh;
+    max-width: 50%;
+    margin: 0 auto;
+    color: white;
+    padding-top: 90px;
+    box-sizing:border-box;
+}
