@@ -1,0 +1,26 @@
+.Feature {
+  margin: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.feature-img {
+  border: 0.5px solid gray;
+  border-radius: 10px;
+  object-fit: cover;
+  width: 400px;
+  max-height: 500px;
+}
+.feature-text {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.feature-title {
+  margin: 20px 30px;
+}

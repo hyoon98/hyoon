@@ -8,7 +8,7 @@ export default function Card({cover, title, desc, link}) {
     <div className='Card' onClick={()=>{
         navigate('/blog/'+link)
     }}>
-        <img className='cover' src={cover}/>
+        <img alt="" className='cover' src={cover}/>
         <h2 className='card-title'>{title}</h2>
         <p className='description'>{desc}</p>
     </div>
