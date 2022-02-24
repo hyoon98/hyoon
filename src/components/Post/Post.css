@@ -1,8 +1,30 @@
-.Post{
-    min-height: 100vh;
-    max-width: 50%;
-    margin: 0 auto;
-    color: white;
-    padding-top: 90px;
-    box-sizing:border-box;
+.Post {
+  min-height: 100vh;
+  max-width: 55%;
+  margin: 0 auto;
+  color: white;
+  padding-top: 90px;
+  box-sizing: border-box;
+}
+
+.post-title {
+  margin: 1.5em auto;
+}
+
+.post-content {
+  margin: 2em 0;
+}
+
+.post-img {
+  border: 0.5px solid gray;
+  border-radius: 10px;
+  width: 100%;
+  margin: 0 auto;
+  height: 30em;
+  object-fit: cover;
+}
+
+.post-date {
+  font-weight: 300;
+  margin: 1em 0;
 }
