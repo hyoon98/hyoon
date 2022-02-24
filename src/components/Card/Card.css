@@ -1,6 +1,6 @@
 .Card{
-    width: 400px;
-    background-color: white;
+    max-width: 350px;
+    height: 325px;
 }
 
 .cover{
@@ -9,5 +9,17 @@
     object-fit: cover;
     overflow: hidden;
     display: block;
+    border-radius: 0.5em  ;
 }
 
+.card-title{
+    margin: 0.7em 0;
+    line-height: 1em;
+    max-height: 2em;
+    font-weight: 400;
+}
+
+.description{
+    line-height: 1em;
+    max-height: 2em;
+}

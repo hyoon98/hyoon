@@ -8,7 +8,7 @@ export default function Navbar() {
         <div className='Navbar'>
             <div className="wrapper">
                 <div className="left">
-                    <a href='#intro' className='logo'>h<span className='punctuation'>.</span>y</a>
+                    <a href='/' className='logo'>h<span className='punctuation'>.</span>y</a>
                     <div className='itemContainerEmail'>
                         <EmailIcon fontSize='medium' className='icon'/>
                         <span className='iconText'>hyoon1998<span className='punctuation'>@</span>gmail<span className='punctuation'>.</span>com</span>
