@@ -31,9 +31,16 @@ function Post() {
       </h1>
       <h4 className='post-date'>Published {data.blogPost.date}</h4>
       <img className='post-img' src={data.blogPost.coverImage.url} alt="" />
-      <div className="post-content">
-        <RichText className="post-content" content={data.blogPost.text.raw}/>
-      </div>
+      <article className="post-content">
+        <RichText content={data.blogPost.text.raw}
+          renderers={{
+            p:({children})=><p className='post-content-p'>{children}</p>,
+            img:({src,altText,height,width})=>(
+            <div className='post-content-img'>
+              <img src={src} alt={altText} width={width} height={height}/>
+            </div>)
+        }}/>
+      </article>
     </div>
   )
 }

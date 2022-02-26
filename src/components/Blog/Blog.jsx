@@ -6,7 +6,7 @@ import Feature from '../Feature/Feature'
 
 const GET_POSTS=gql`
 query{
-  blogPosts {
+  blogPosts(orderBy: createdAt_DESC) {
     title
     description
     id

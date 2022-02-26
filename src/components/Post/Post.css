@@ -1,10 +1,11 @@
 .Post {
   min-height: 100vh;
-  max-width: 55%;
+  max-width: 900px;
   margin: 0 auto;
   color: white;
   padding-top: 90px;
   box-sizing: border-box;
+  margin: 0 auto;
 }
 
 .post-title {
@@ -18,7 +19,7 @@
 .post-img {
   border: 0.5px solid gray;
   border-radius: 10px;
-  width: 100%;
+  width: 99%;
   margin: 0 auto;
   height: 30em;
   object-fit: cover;
@@ -27,4 +28,21 @@
 .post-date {
   font-weight: 300;
   margin: 1em 0;
+}
+
+.post-content{
+  font-size: large;
+  line-height: 2;
+  white-space: pre-wrap;
+}
+
+.post-content-p{
+  margin-bottom: 2em;
+}
+
+.post-content-img{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 2em;
 }
