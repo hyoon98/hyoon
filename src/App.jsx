@@ -1,4 +1,4 @@
-import {Routes, Route, useParams} from 'react-router-dom';
+import {Routes, Route} from 'react-router-dom';
 import './App.scss'
 import Portfolio from './components/Portfolio/Porfolio';
 import Navbar from './components/Navbar/Navbar';
