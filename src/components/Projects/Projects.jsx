@@ -1,9 +1,6 @@
 import './Projects.css'
 import Card from './Card/Card.js'
-import debttrackerimg from '../../assets/debttrackerimg.jpg'
-import cartoonimg from '../../assets/cartoon.jpg'
-import shoetrackerimg from '../../assets/shoetracker.png'
-import { useQuery, gql } from '@apollo/client'
+import { useQuery,gql } from '@apollo/client'
 
 const GET_PROJECTS=gql`
   {
