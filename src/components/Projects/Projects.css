@@ -1,4 +1,4 @@
-.Projects{
+.Projects {
   margin: 0;
   position: relative;
   min-height: calc(100vh - 90px);
@@ -14,16 +14,16 @@
 .projects-container {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  margin: 40px 0;
+  justify-content: space-between;
+  margin: 40px 10%;
   flex-wrap: wrap;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   display: none;
 }
 
-.project-title{
+.project-title {
   font-size: 70px;
   font-weight: 400;
 }
