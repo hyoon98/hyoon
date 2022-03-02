@@ -29,7 +29,7 @@ export default function Navbar() {
                     </a>
                     <a href="/blog">
                         <div className='itemContainer'>
-                                <span className='iconText'>Blog</span>
+                                <span className='iconTextBlog'>Blog</span>
                         </div>
                     </a>
                 </div>
