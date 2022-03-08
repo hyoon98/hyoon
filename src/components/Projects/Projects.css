@@ -13,8 +13,9 @@
 
 .projects-container {
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 40px 10%;
   flex-wrap: wrap;
 }
