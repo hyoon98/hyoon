@@ -21,7 +21,7 @@ export default function Navbar() {
                                 <span className='iconText'>hyoon98</span>
                         </div>
                     </a>
-                    <a href="#projects">
+                    <a href="/#projects">
                         <div className='itemContainer'>
                                 <WorkOutlineIcon  fontSize='medium' className='icon'/>
                                 <span className='iconText'>Projects</span>
